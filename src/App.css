@@ -1,0 +1,27 @@
+body{
+  background-color: #262936;
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+.layout{
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+
+
+
+
+
